@@ -15,6 +15,7 @@
 		4B92A3A31DECF8C10093680B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B92A3A11DECF8C10093680B /* LaunchScreen.storyboard */; };
 		4B92A3AE1DECF8C20093680B /* LoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B92A3AD1DECF8C20093680B /* LoginScreenTests.swift */; };
 		4B92A3B91DECF8C20093680B /* LoginScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B92A3B81DECF8C20093680B /* LoginScreenUITests.swift */; };
+		4B92A3C71DECFD490093680B /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B92A3C61DECFD490093680B /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4B92A3B41DECF8C20093680B /* LoginScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B92A3B81DECF8C20093680B /* LoginScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUITests.swift; sourceTree = "<group>"; };
 		4B92A3BA1DECF8C20093680B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B92A3C61DECFD490093680B /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4B92A3941DECF8C10093680B /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
+				4B92A3C61DECFD490093680B /* LoginTextField.swift */,
 				4B92A3951DECF8C10093680B /* AppDelegate.swift */,
 				4B92A3971DECF8C10093680B /* ViewController.swift */,
 				4B92A3991DECF8C10093680B /* Main.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B92A3981DECF8C10093680B /* ViewController.swift in Sources */,
+				4B92A3C71DECFD490093680B /* LoginTextField.swift in Sources */,
 				4B92A3961DECF8C10093680B /* AppDelegate.swift in Sources */,
 				4B92A39E1DECF8C10093680B /* LoginScreen.xcdatamodeld in Sources */,
 			);

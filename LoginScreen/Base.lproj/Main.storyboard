@@ -39,15 +39,51 @@
                                     <constraint firstAttribute="height" constant="83" id="6Fm-iB-0oR"/>
                                 </constraints>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" text="Abey Onalaja" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ess-2g-cj0" customClass="LoginTextField" customModule="LoginScreen" customModuleProvider="target">
+                                <rect key="frame" x="50" y="308" width="274" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Wc6-b9-qZ9"/>
+                                </constraints>
+                                <color key="textColor" red="0.35686274509803922" green="0.396078431372549" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="USERNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZz-6y-dSG">
+                                <rect key="frame" x="56" y="308" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="11"/>
+                                <color key="textColor" red="0.78823529411764703" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" text="Abey Onalaja" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XHH-Wt-xbg" customClass="LoginTextField" customModule="LoginScreen" customModuleProvider="target">
+                                <rect key="frame" x="50" y="366" width="274" height="50"/>
+                                <color key="textColor" red="0.35686274509999999" green="0.39607843139999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9C-dZ-Nvn">
+                                <rect key="frame" x="56" y="366" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="11"/>
+                                <color key="textColor" red="0.78823529410000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0L7-sM-BKo" firstAttribute="top" secondItem="gah-Nc-LBP" secondAttribute="bottom" constant="-176" id="2GA-Eu-nNW"/>
                             <constraint firstItem="gah-Nc-LBP" firstAttribute="centerX" secondItem="0L7-sM-BKo" secondAttribute="centerX" id="2a6-xX-3ZU"/>
                             <constraint firstItem="0L7-sM-BKo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3dv-jX-kOe"/>
+                            <constraint firstItem="ess-2g-cj0" firstAttribute="top" secondItem="gah-Nc-LBP" secondAttribute="bottom" constant="16" id="43p-kp-KrU"/>
+                            <constraint firstItem="XHH-Wt-xbg" firstAttribute="height" secondItem="ess-2g-cj0" secondAttribute="height" id="GZ1-JD-7pU"/>
+                            <constraint firstItem="ess-2g-cj0" firstAttribute="trailing" secondItem="0L7-sM-BKo" secondAttribute="trailing" constant="-35" id="Hqx-NE-gAa"/>
                             <constraint firstItem="0L7-sM-BKo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jmj-DN-eD2"/>
                             <constraint firstItem="0L7-sM-BKo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RWT-g2-uLL"/>
+                            <constraint firstItem="XHH-Wt-xbg" firstAttribute="leading" secondItem="ess-2g-cj0" secondAttribute="leading" id="aVu-Re-Cx8"/>
+                            <constraint firstItem="XHH-Wt-xbg" firstAttribute="top" secondItem="ess-2g-cj0" secondAttribute="bottom" constant="8" id="gun-BJ-a6H"/>
                             <constraint firstItem="0L7-sM-BKo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h49-tH-FZi"/>
+                            <constraint firstItem="ess-2g-cj0" firstAttribute="leading" secondItem="0L7-sM-BKo" secondAttribute="leading" constant="34" id="hwh-MD-btS"/>
+                            <constraint firstItem="XHH-Wt-xbg" firstAttribute="width" secondItem="ess-2g-cj0" secondAttribute="width" id="kLJ-KD-EX0"/>
                         </constraints>
                     </view>
                 </viewController>
